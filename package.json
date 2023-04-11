@@ -1,5 +1,6 @@
 {
-  "name": "using-pre-built-react-components",
+  "homepage": "https://github.com/Ajay2505/keeper-app.git",
+  "name": "keeper-app",
   "version": "1.0.0",
   "keywords": [],
   "main": "src/index.js",
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d deploy",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
